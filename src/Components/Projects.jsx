@@ -21,7 +21,7 @@ export default function Projects() {
             <a href="#">
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Quiz Application</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A dynamic React quiz app that offers interactive multiple-choice questions with real-time scoring.</p>
             <div className='flex justify-between'>
             <a href="https://quiz-app-react-tau-sable.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 View Live
@@ -45,7 +45,7 @@ export default function Projects() {
             <a href="#">
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Number Guessing Game</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A React-based game where players guess a random number within a range.</p>
             <div className='flex justify-between'>
             <a href="https://cassino-react-project.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 View Live
@@ -68,7 +68,7 @@ export default function Projects() {
             <a href="#">
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Netflix</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A sleek Netflix clone built with React and styled using Tailwind CSS, featuring a responsive interface.</p>
             <div className='flex justify-between'>
             <a href="https://net-flixclonebyimran.netlify.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 View Live
