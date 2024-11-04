@@ -128,10 +128,7 @@ export const Info = [
     {
         title:"Front-End Skills",
         skills:[
-            {
-                skill:"HTML",
-                value:80
-            },
+          
             {
                 skill:"CSS",
                 value:70
@@ -152,6 +149,10 @@ export const Info = [
                 skill:"React-JS",
                 value:68,
             },
+            {
+                skill:"Next-JS",
+                value:30,
+            },
         ]
     },
     {
@@ -163,15 +164,19 @@ export const Info = [
             },
             {
                 skill:"Node-JS",
-                value:10,
+                value:50,
+            },
+            {
+                skill:"Express-JS",
+                value:60,
+            },
+            {
+                skill:"Mongo-DB",
+                value:40,
             },
             {
                 skill:"C++",
                 value:75
-            },
-            {
-                skill:"C#",
-                value:40,
             },
         ]
     },
@@ -205,11 +210,15 @@ export const Info = [
             },
             {
                 skill:"Git / Github",
-                value:90,
+                value:70,
             },
             {
                 skill:"Mongo DB",
-                value:30,
+                value:70,
+            },
+            {
+                skill:"PostMan",
+                value:70,
             },
         ]
     }

@@ -1,7 +1,8 @@
 import React from 'react'
 import img1 from "./pic/quiz.jpg"
 import img2 from "./pic/Netflix.png"
-import img3 from "./pic/Cassino.png"
+import img3 from "../assets/7449990.jpg"
+import img4 from "../assets/ecommerce.jpg"
 export default function Projects() {
   return (
     <>
@@ -39,19 +40,19 @@ export default function Projects() {
     
     <div class="w-[301px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="">
-            <img class="rounded-t-lg " src={img3} alt="" />
+            <img class="rounded-t-lg " src={img3} style={{height:'165px' , width:'-webkit-fill-available'}}  alt="" />
         </a>
-        <div class="p-5">
+        <div className="p-5">
             <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Number Guessing Game</h5>
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Chat Application</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A React-based game where players guess a random number within a range.</p>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A MERN chat application enables real-time communication between users.</p>
             <div className='flex justify-between'>
-            <a href="https://cassino-react-project.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 View Live
                  
             </a> 
-            <a href="https://github.com/imranshahid111/Cassino-react-project.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <a href="https://github.com/imranshahid111/Chat-Application" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 Github Repo
                  
             </a>
@@ -81,6 +82,29 @@ export default function Projects() {
             </div>
         </div>
     </div>
+
+    <div class="w-[301px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src={img4} alt="" />
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Ecommerce App</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A Mern eCommerce app enables users to browse and buy products online.</p>
+            <div className='flex justify-between'>
+            <a href="/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                View Live
+                 
+            </a> 
+            <a href="https://github.com/imranshahid111/Ecommerce-fullstack" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Github Repo
+                 
+            </a>
+            </div>
+        </div>
+    </div>
+
 
 
     </div>

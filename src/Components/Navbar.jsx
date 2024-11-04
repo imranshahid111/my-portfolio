@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 export default function Navbar() {
-  // Initialize state for toggling the mobile menu
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Function to toggle the menu open/closed
+  
   const handleToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
