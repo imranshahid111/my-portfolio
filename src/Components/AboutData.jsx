@@ -66,26 +66,26 @@ export const Skill = [
     },
     {
         skill:"Bootstrap",
-        value:40
+        value:65
     },
     {
         skill:"Tailwind",
-        value:60,
-    },
-    {
-        skill:"JavaScript",
         value:75,
     },
     {
+        skill:"JavaScript",
+        value:70,
+    },
+    {
         skill:"React-JS",
-        value:68,
+        value:75,
     },
 ]
 
 export const backend= [
     {
         skill:"JavaScript",
-        value:55,
+        value:75,
     },
     {
         skill:"C++",
@@ -142,23 +142,23 @@ export const Info = [
             },
             {
                 skill:"Bootstrap",
-                value:40
+                value:65,
             },
             {
                 skill:"Tailwind",
-                value:60,
+                value:70,
             },
             {
                 skill:"JavaScript",
-                value:75,
+                value:70,
             },
             {
                 skill:"React-JS",
-                value:68,
+                value:75,
             },
             {
                 skill:"Next-JS",
-                value:30,
+                value:40,
             },
         ]
     },
@@ -167,19 +167,19 @@ export const Info = [
         skills:[
             {
                 skill:"JavaScript",
-                value:55,
-            },
-            {
-                skill:"Node-JS",
-                value:50,
-            },
-            {
-                skill:"Express-JS",
                 value:60,
             },
             {
+                skill:"Node-JS",
+                value:65,
+            },
+            {
+                skill:"Express-JS",
+                value:70,
+            },
+            {
                 skill:"Mongo-DB",
-                value:40,
+                value:55,
             },
             {
                 skill:"C++",
