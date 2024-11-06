@@ -3,9 +3,16 @@ import dev2 from "./pic/developing.png"
 import dev3 from "./pic/mobile-development.png"
 import dev4 from "./pic/growth.png"
 
-// export const locs = [
-//     soft, backend  , Skill , tools
-// ]
+
+import img1 from "./pic/quiz.jpg"
+import img2 from "./pic/Netflix.png"
+import img3 from "../assets/7449990.jpg"
+import img4 from "../assets/ecommerce.jpg"
+import img5 from "./pic/backend.jpg"
+import img6 from "./pic/Cassino.png"
+import img7 from "./pic/trading.jpg"
+
+
 export const AboutData = [
     {
         png: dev1,
@@ -223,3 +230,57 @@ export const Info = [
         ]
     }
 ]
+
+export const ProjectData = [
+    {
+        img:img1,
+        title : "Quiz Application",
+        description : "A dynamic React quiz app that offers interactive multiple-choice questions with real-time scoring.",
+        gitLink : "https://github.com/imranshahid111/quiz-app-react",
+        viewLink :"https://quiz-app-react-tau-sable.vercel.app/"
+    },
+    {
+        img:img3,
+        title : "Chat Application",
+        description : "A MERN chat application enables real-time communication between users.",
+        gitLink : "https://github.com/imranshahid111/Chat-Application",
+        viewLink :"/"
+    },
+    {
+        img:img2,
+        title : "Netflix",
+        description : "A sleek Netflix clone built with React and styled using Tailwind CSS, featuring a responsive interface.",
+        gitLink : "https://github.com/imranshahid111/Netflix-clone-tailwind",
+        viewLink :"https://net-flixclonebyimran.netlify.app/"
+    },
+    {
+        img: img4,
+        title : "Ecommerce App",
+        description : "A Mern eCommerce app enables users to browse and buy products online.",
+        gitLink : "https://github.com/imranshahid111/Ecommerce-fullstack",
+        viewLink :"/"
+    },
+    {
+        img:img6,
+        title : "Cassino Game",
+        description : "A dynamic React quiz app that offers interactive number guessing with real-time scoring.",
+        gitLink : "https://github.com/imranshahid111/quiz-app-react",
+        viewLink :"https://quiz-app-react-tau-sable.vercel.app/"
+    },
+    {
+        img:img5,
+        title : "Ecommerce App Backend",
+        description : "A Mern eCommerce app enables users to browse and buy products online.",
+        gitLink : "https://github.com/imranshahid111/ecommerce-store-backend",
+        viewLink :"/"
+    },
+    {
+        img:img7,
+        title : "Trading App",
+        description : "A trading app using the MERN stack that simulates market movements.",
+        gitLink : "https://github.com/imranshahid111/TradingApplication",
+        viewLink :"/"
+    },
+  
+]
+

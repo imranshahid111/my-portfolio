@@ -60,7 +60,7 @@ export default function Skills() {
                 <div className='bg-gray-300 w-[100%] rounded-lg'>
                 <div
                       className='rounded-lg h-2 bg-blue-700'
-                      // style={{ width: `${widths[i.skill] || 0}%`, transition: "width 1s ease-in-out" }}
+                      style={{width: i.value+'%',  transition: "width 1s ease-in-out"}}
                     ></div>
                 </div>
               </div>

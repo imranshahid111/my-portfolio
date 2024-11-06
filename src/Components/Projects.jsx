@@ -3,6 +3,9 @@ import img1 from "./pic/quiz.jpg"
 import img2 from "./pic/Netflix.png"
 import img3 from "../assets/7449990.jpg"
 import img4 from "../assets/ecommerce.jpg"
+import ProjectWork from './ProjectWork'
+import "../App.css"
+import { ProjectData } from './AboutData'
 export default function Projects() {
   return (
     <>
@@ -11,102 +14,16 @@ export default function Projects() {
     <p className='text-[11px] md:text-[18px] text-white' >I have worked on many projects over the course of being a Web Developer, here are a few of my projects</p>
   
     </div>
-     <div className='grid place-items-center'>
-    <div className='flex md:flex-wrap md:flex-row flex-col md:justify-evenly mt-10 gap-9 '>
-        
-    <div class="w-[301px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-            <img class="rounded-t-lg" src={img1} alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Quiz Application</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A dynamic React quiz app that offers interactive multiple-choice questions with real-time scoring.</p>
-            <div className='flex justify-between'>
-            <a href="https://quiz-app-react-tau-sable.vercel.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                View Live
-                 
-            </a> 
-            <a href="https://github.com/imranshahid111/quiz-app-react.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Github Repo
-                 
-            </a>
-            </div>
-           
-        </div>
-    </div>
-
-    
-    <div class="w-[301px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="">
-            <img class="rounded-t-lg " src={img3} style={{height:'165px' , width:'-webkit-fill-available'}}  alt="" />
-        </a>
-        <div className="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Chat Application</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A MERN chat application enables real-time communication between users.</p>
-            <div className='flex justify-between'>
-            <a href="/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                View Live
-                 
-            </a> 
-            <a href="https://github.com/imranshahid111/Chat-Application" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Github Repo
-                 
-            </a>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="w-[301px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-            <img class="rounded-t-lg" src={img2} alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Netflix</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A sleek Netflix clone built with React and styled using Tailwind CSS, featuring a responsive interface.</p>
-            <div className='flex justify-between'>
-            <a href="https://net-flixclonebyimran.netlify.app/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                View Live
-                 
-            </a> 
-            <a href="https://github.com/imranshahid111/Netflix-clone-tailwind.git" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Github Repo
-                 
-            </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="w-[301px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-            <img class="rounded-t-lg" src={img4} alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Ecommerce App</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A Mern eCommerce app enables users to browse and buy products online.</p>
-            <div className='flex justify-between'>
-            <a href="/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                View Live
-                 
-            </a> 
-            <a href="https://github.com/imranshahid111/Ecommerce-fullstack" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#181824] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                Github Repo
-                 
-            </a>
-            </div>
-        </div>
-    </div>
-
-
-
+     <div className='grid place-items-center '>
+    <div className='flex flex-nowrap flex-row overflow-x-scroll  mt-10 gap-9 w-[100%]'>
+        {
+            ProjectData.map((e,i)=>{
+                return(
+                    <ProjectWork img={e.img} title={e.title}  description={e.description} gitLink={e.gitLink} viewLink={e.viewLink}  />
+                )
+            })
+        }
+      
     </div>
     </div>
     </>
