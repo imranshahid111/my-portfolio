@@ -18,7 +18,11 @@ export default function Namepic() {
         1000, 
         'React-JS developer',
         1000,
-        'JavaScript developer',
+        'Backend developer',
+        1000,
+        'Node-JS developer',
+        1000,
+        'MERN-Stack developer',
         1000,
         
       ]}
