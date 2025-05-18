@@ -1,5 +1,5 @@
 import React from 'react'
-import myimage from "./pic/hero.png"
+import myimage from "./pic/hero1.png"
 import { TypeAnimation } from 'react-type-animation'
 export default function Namepic() {
   return (
@@ -14,15 +14,15 @@ export default function Namepic() {
                   <span className="text-white text-[12px] md:text-[22px] font-semibold">I am a </span>
                 <TypeAnimation
       sequence={[
-        'Front-End developer',
+        'MERN-Stack developer',
         1000, 
-        'React-JS developer',
+        'Full-Stack developer',
         1000,
         'Backend developer',
         1000,
         'Node-JS developer',
         1000,
-        'MERN-Stack developer',
+        'React-Js developer',
         1000,
         
       ]}

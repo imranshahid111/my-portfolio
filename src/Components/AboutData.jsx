@@ -60,10 +60,7 @@ export const Skill = [
         skill:"HTML",
         value:80
     },
-    {
-        skill:"CSS",
-        value:70
-    },
+    
     {
         skill:"Bootstrap",
         value:65
@@ -78,6 +75,10 @@ export const Skill = [
     },
     {
         skill:"React-JS",
+        value:75,
+    },
+    {
+        skill:"TypeScript",
         value:75,
     },
 ]
@@ -136,29 +137,30 @@ export const Info = [
         title:"Front-End Skills",
         skills:[
           
-            {
-                skill:"CSS",
-                value:70
-            },
+           
             {
                 skill:"Bootstrap",
-                value:65,
+                value:80,
             },
             {
                 skill:"Tailwind",
-                value:70,
+                value:85,
             },
             {
                 skill:"JavaScript",
-                value:70,
+                value:90,
             },
             {
                 skill:"React-JS",
-                value:75,
+                value:95,
             },
             {
                 skill:"Next-JS",
-                value:40,
+                value:75,
+            },
+            {
+                skill:"TypeScript",
+                value:80,
             },
         ]
     },
@@ -167,23 +169,23 @@ export const Info = [
         skills:[
             {
                 skill:"JavaScript",
-                value:60,
+                value:90,
             },
             {
                 skill:"Node-JS",
-                value:65,
+                value:85,
             },
             {
                 skill:"Express-JS",
-                value:70,
+                value:80,
             },
             {
                 skill:"Mongo-DB",
-                value:55,
+                value:80,
             },
             {
                 skill:"C++",
-                value:75
+                value:86
             },
         ]
     },
@@ -225,7 +227,7 @@ export const Info = [
             },
             {
                 skill:"PostMan",
-                value:70,
+                value:95,
             },
         ]
     }
